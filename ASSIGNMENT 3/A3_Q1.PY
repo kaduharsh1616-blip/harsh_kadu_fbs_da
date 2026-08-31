@@ -1,0 +1,7 @@
+ ### wap to print number is positive or  negative
+
+num = int(input('enter the num:'))
+if (num > 0):
+    print('the number is positive :')
+else:
+    print('the number is negative:')
