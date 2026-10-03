@@ -1,0 +1,14 @@
+# Write a program to create three lists of numbers, their squares
+#and cubesS
+def create_lists(lst):
+    numbers = lst
+    squares = [num ** 2 for num in lst]
+    cubes = [num ** 3 for num in lst]
+    return numbers, squares, cubes
+
+lst = [1, 2, 3, 4, 5]
+print("Original list:", lst)
+numbers, squares, cubes = create_lists(lst)
+print("Numbers:", numbers)
+print("Squares:", squares)
+print("Cubes:", cubes)
